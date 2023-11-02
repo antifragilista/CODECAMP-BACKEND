@@ -1,0 +1,23 @@
+version: '3.7'
+
+# 컴퓨터들
+services:
+
+  # 컴퓨터이름
+  my-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # volumes를 통해 로컬의 소스코드와 도커내의 소스코드를 공유할 수 있습니다.
+    volumes:
+      - ./index.js:/myfolder/index.js
+      - ./email.js:/myfolder/email.js
+#      - ./src:/myforder/src
+    ports:
+      - 3000:3000
+
+  # 컴퓨터이름
+  my-database:
+    image: mongo:5
+    ports:
+      - 27017:27017
