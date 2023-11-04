@@ -38,7 +38,7 @@ app.post('/boards', async (req, res) => {
     res.send('게시물 등록에 성공하였습니다!!!!!!!');
 });
 
-// mongoose에서 실행한 명령을 MongoDB 명령어로 확인 할 수 있도록 함
+// mongoose에서 실행한 명령을 MongoDB 명령어로 확인 할 수 있는 기능
 mongoose.set("debug", true)
 mongoose.connect("mongodb://my-database:27017/mydocker")
     .then(() => console.log("db 접속에 성공하였습니다."))
