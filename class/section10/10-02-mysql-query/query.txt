@@ -1,0 +1,68 @@
+show databases;
+
+use myproject;
+
+show tables;
+
+desc product;
+
+select * from product;
+
+insert into product(id, name, description, price)
+						values(uuid(), '마우스', '좋은 마우스', 15000);
+
+delete from product
+ where name = '셔츠'
+;
+
+update product
+	set price = '키보드'
+
+
+update product
+	set price = 18000
+ where name = '마우스';
+
+
+insert into product_saleslocation(id, address, addressDetail, lat, lng, meetingTime)
+							values(uuid(), '구로구', '구로디지털단지역', 37.281723, 127.192387, '2023-01-10');
+
+select * from product_saleslocation;
+
+update product
+	set productSaleslocationId = 'b676a1ae-cb8c-11ec-95e6-6f6cd1d3adeb'
+ where name = '마우스'
+;
+
+select product.id, name, price, address, addressDetail
+	from product, product_saleslocation
+ where product.productSaleslocationId = product_saleslocation.id
+;
+
+# 추가 기능 1 (and)
+update product
+	set isSoldout = true
+where name = '노트북'
+	and price= 20000
+;
+
+# 추가 기능 2 (or)
+update product
+	set isSoldout = true
+ where name = '노트북'
+	or price= 20000
+;
+
+```sql
+# 추가 기능 3
+# 주석 쉽게 다는 방법
+# update와 delete에서는 가급적 사용하지 않는 것이 좋음
+
+select *
+	from product
+ where 1 = 1
+	-- and name = '마우스'
+	and price = 5000
+	and isSoldout = false
+;
+```
