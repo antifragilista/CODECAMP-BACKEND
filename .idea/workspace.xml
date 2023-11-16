@@ -4,107 +4,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adc96a80-6267-4f5e-b9d8-19e4cdf9dcee" name="Changes" comment="1. 챕터 10-8 스키마 변경">
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/nest-cli.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/pnpm-lock.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/boards/boards.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/boards/boards.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/boards/boards.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/boards/dto/create-board.input.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/boards/entities/boards.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/products-categories/entities/product-category.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/products-categories/interfaces/products-categories-service.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/products-categories/products-categories.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/products-categories/products-categories.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/products-categories/products-categories.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/products-sale-locations/dto/product-sale-location.input.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/products-sale-locations/entities/product-sale-location.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/products-sale-locations/products-sale-locations.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/products-tags/entities/product-tag.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/products-tags/interfaces/products-tags-service.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/products-tags/product-tags.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/products/dto/create-product.input.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/products/dto/update-product.input.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/products/entities/product.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/products/interfaces/products-service.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/products/products.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/products/products.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/products/products.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/users/entities/user.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/users/interfaces/users-service.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/users/users.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/users/users.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/apis/users/users.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/app.controller.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/app.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/app.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/commons/filter/http-exception.filter.cs.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/commons/graphql/schema.gql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/test/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/test/jest-e2e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/tsconfig.build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-01-signup/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/nest-cli.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/pnpm-lock.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/auth/auth.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/auth/auth.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/auth/auth.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/auth/interfaces/auth-service.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/boards/boards.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/boards/boards.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/boards/boards.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/boards/dto/create-board.input.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/boards/entities/boards.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/products-categories/entities/product-category.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/products-categories/interfaces/products-categories-service.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/products-categories/products-categories.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/products-categories/products-categories.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/products-categories/products-categories.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/products-sale-locations/dto/product-sale-location.input.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/products-sale-locations/entities/product-sale-location.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/products-sale-locations/products-sale-locations.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/products-tags/entities/product-tag.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/products-tags/interfaces/products-tags-service.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/products-tags/product-tags.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/products/dto/create-product.input.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/products/dto/update-product.input.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/products/entities/product.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/products/interfaces/products-service.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/products/products.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/products/products.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/products/products.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/users/entities/user.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/users/interfaces/users-service.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/users/users.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/users/users.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/users/users.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/app.controller.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/app.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/app.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/commons/filter/http-exception.filter.cs.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/commons/graphql/schema.gql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/test/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/test/jest-e2e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/tsconfig.build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/tsconfig.json" afterDir="false" />
+    <list default="true" id="adc96a80-6267-4f5e-b9d8-19e4cdf9dcee" name="Changes" comment="1. 챕터 11-1까지 완료">
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/nest-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/pnpm-lock.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/auth/auth.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/auth/auth.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/auth/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/auth/interfaces/auth-service.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/auth/strategies/jwt-access.strategy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/boards/boards.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/boards/boards.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/boards/boards.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/boards/dto/create-board.input.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/boards/entities/boards.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/products-categories/entities/product-category.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/products-categories/interfaces/products-categories-service.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/products-categories/products-categories.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/products-categories/products-categories.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/products-categories/products-categories.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/products-sale-locations/dto/product-sale-location.input.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/products-sale-locations/entities/product-sale-location.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/products-sale-locations/products-sale-locations.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/products-tags/entities/product-tag.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/products-tags/interfaces/products-tags-service.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/products-tags/product-tags.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/products/dto/create-product.input.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/products/dto/update-product.input.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/products/entities/product.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/products/interfaces/products-service.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/products/products.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/products/products.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/products/products.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/users/entities/user.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/users/interfaces/users-service.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/users/users.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/users/users.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/apis/users/users.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/app.controller.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/app.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/app.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/commons/filter/http-exception.filter.cs.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/commons/graphql/schema.gql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/commons/guards/gql-auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/commons/interfaces/context.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/test/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/test/jest-e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/tsconfig.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/section11/11-03-login-authorization/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/users/entities/user.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/class/section11/11-02-login-authentication/src/apis/users/entities/user.entity.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +117,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/kevin/Development/02.study/01.backend-class/CODECAMP-BACKEND/class/section11/11-02-login-authentication/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Users/kevin/Development/02.study/01.backend-class/CODECAMP-BACKEND/class/section11/11-01-signup/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -173,11 +130,11 @@
       <recent name="$PROJECT_DIR$/class/section10/10-02-mysql-query/src/apis/products" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/commons/interfaces" />
+      <recent name="$PROJECT_DIR$/class/section11/11-03-login-authorization/src/commons" />
       <recent name="$PROJECT_DIR$/class/section10/10-07-typeorm-crud-many-to-one/src/apis" />
       <recent name="$PROJECT_DIR$/class/section10/10-06-typeorm-crud-one-to-one/src/apis/products-sale-locations/dto" />
       <recent name="$PROJECT_DIR$/class/section10/10-02-nestjs-with-graphql/src/apis" />
-      <recent name="$PROJECT_DIR$/class/section10/10-01-nestjs" />
-      <recent name="$PROJECT_DIR$/class/section08/08-03-class-and-OOP-strategy" />
     </key>
   </component>
   <component name="RunManager">
@@ -200,7 +157,7 @@
       <updated>1698653738985</updated>
       <workItem from="1698653740552" duration="108083000" />
       <workItem from="1699256905449" duration="11258000" />
-      <workItem from="1699370667025" duration="66562000" />
+      <workItem from="1699370667025" duration="74236000" />
     </task>
     <task id="LOCAL-00001" summary="1. 최초 커밋">
       <option name="closed" value="true" />
@@ -266,7 +223,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699604654048</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1. 챕터 11-1까지 완료">
+      <option name="closed" value="true" />
+      <created>1699944183730</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699944183731</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1. 챕터 11-1까지 완료">
+      <option name="closed" value="true" />
+      <created>1699944267240</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699944267240</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +254,7 @@
     <MESSAGE value="1. 챕터 10-5까지 완료" />
     <MESSAGE value="1. 챕터 10-8까지 완료" />
     <MESSAGE value="1. 챕터 10-8 스키마 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 챕터 10-8 스키마 변경" />
+    <MESSAGE value="1. 챕터 11-1까지 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 챕터 11-1까지 완료" />
   </component>
 </project>
