@@ -6,6 +6,7 @@ import { UsersService } from '../users/users.service';
 import {
   IAuthServiceGetAccessToken,
   IAuthServiceLogin,
+  IAuthServiceSetRefreshToken,
 } from './interfaces/auth-service.interface';
 import * as bcrypt from 'bcrypt';
 
@@ -16,7 +17,11 @@ export class AuthService {
     private readonly usersService: UsersService,
   ) {}
 
-  async login({ email, password }: IAuthServiceLogin): Promise<string> {
+  async login({
+    email,
+    password,
+    context,
+  }: IAuthServiceLogin): Promise<string> {
     // 1. 이메일이 일치하는 유저를 DB에서 찾기
     const user = await this.usersService.findOneByEmail({ email });
 
@@ -27,9 +32,29 @@ export class AuthService {
     const isAuth = await bcrypt.compare(password, user.password);
     if (!isAuth) throw new UnprocessableEntityException('암호가 틀렸습니다.');
 
-    // 4. 일치하는 유저도 있고, 비밀번호도 맞았다면?!
+    // 4. refreshToken(=JWT)을 만들어서 브라우저 쿠키에 저장해서 보내주기
+    this.setRefreshToken({ user, context });
+
+    // 5. 일치하는 유저도 있고, 비밀번호도 맞았다면?!
     //    => accessToken(=JWT)을 만들어서 브라우저에 전달하기
     return this.getAccessToken({ user });
+  }
+
+  setRefreshToken({ user, context }: IAuthServiceSetRefreshToken): void {
+    const refreshToken = this.jwtService.sign(
+      { sub: user.id },
+      { secret: 'my_refresh_password', expiresIn: '2w' },
+    );
+
+    // 개발환경
+    context.res.setHeader(
+      'set-Cookie',
+      `refreshToken=${refreshToken}; path=/;`,
+    );
+
+    // 배포환경
+    // context.res.setHeader('set-Cookie', `refreshToken=${refreshToken}; path=/; domain=.mybacksite.com; SameSite=None; Secure; httpOnly`);
+    // context.res.setHeader('Access-Control-Allow-Origin', 'https://myfrontsite.com');
   }
 
   getAccessToken({ user }: IAuthServiceGetAccessToken): string {
