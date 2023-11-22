@@ -44,7 +44,7 @@ export class AuthService {
   getAccessToken({ user }: IAuthServiceGetAccessToken): string {
     return this.jwtService.sign(
       { sub: user.id },
-      { secret: 'akbjkeowfoefkowo', expiresIn: '10s' },
+      { secret: 'akbjkeowfoefkowo', expiresIn: '1m' },
     );
   }
 

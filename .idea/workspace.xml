@@ -4,64 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adc96a80-6267-4f5e-b9d8-19e4cdf9dcee" name="Changes" comment="1. 코드스타일 변경">
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/nest-cli.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/pnpm-lock.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/auth/auth.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/auth/auth.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/auth/auth.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/auth/interfaces/auth-service.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/auth/strategies/jwt-access.strategy.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/auth/strategies/jwt-refresh.strategy.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/boards/boards.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/boards/boards.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/boards/boards.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/boards/dto/create-board.input.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/boards/entities/boards.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/products-categories/entities/product-category.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/products-categories/interfaces/products-categories-service.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/products-categories/products-categories.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/products-categories/products-categories.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/products-categories/products-categories.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/products-sale-locations/dto/product-sale-location.input.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/products-sale-locations/entities/product-sale-location.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/products-sale-locations/products-sale-locations.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/products-tags/entities/product-tag.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/products-tags/interfaces/products-tags-service.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/products-tags/product-tags.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/products/dto/create-product.input.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/products/dto/update-product.input.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/products/entities/product.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/products/interfaces/products-service.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/products/products.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/products/products.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/products/products.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/users/entities/user.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/users/interfaces/users-service.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/users/users.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/users/users.resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/users/users.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/app.controller.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/app.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/app.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/commons/filter/http-exception.filter.cs.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/commons/graphql/schema.gql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/commons/guards/gql-auth.guard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/commons/interfaces/context.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/test/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/test/jest-e2e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/tsconfig.build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/tsconfig.json" afterDir="false" />
+    <list default="true" id="adc96a80-6267-4f5e-b9d8-19e4cdf9dcee" name="Changes" comment="1. 11-5 완료">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/section11/11-04-login-refresh-cookie/src/apis/users/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/class/section11/11-04-login-refresh-cookie/src/apis/users/users.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/auth/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/users/users.resolver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/users/users.resolver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/users/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/class/section11/11-05-login-refresh-restore/src/apis/users/users.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +110,7 @@
       <workItem from="1699256905449" duration="11258000" />
       <workItem from="1699370667025" duration="78118000" />
       <workItem from="1700211675807" duration="21340000" />
-      <workItem from="1700582120611" duration="4028000" />
+      <workItem from="1700582120611" duration="6029000" />
     </task>
     <task id="LOCAL-00001" summary="1. 최초 커밋">
       <option name="closed" value="true" />
@@ -268,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700272998949</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1. 11-5 완료">
+      <option name="closed" value="true" />
+      <created>1700586366646</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1700586366646</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +254,7 @@
     <MESSAGE value="1. 챕터 11-3까지 완료" />
     <MESSAGE value="1. 챕터 11-4까지 완료" />
     <MESSAGE value="1. 코드스타일 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 코드스타일 변경" />
+    <MESSAGE value="1. 11-5 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 11-5 완료" />
   </component>
 </project>

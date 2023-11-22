@@ -6,7 +6,6 @@ import { UsersService } from './users.service';
 import { UseGuards } from '@nestjs/common';
 import { GqlAuthGuard } from 'src/commons/guards/gql-auth.guard';
 import { IContext } from 'src/commons/interfaces/context';
-import { AuthGuard } from "@nestjs/passport";
 
 @Resolver()
 export class UsersResolver {
@@ -14,7 +13,7 @@ export class UsersResolver {
     private readonly usersService: UsersService, //
   ) {}
 
-  @UseGuards(AuthGuard('access'))
+  @UseGuards(GqlAuthGuard('access'))
   @Query(() => String)
   fetchUser(
     @Context() context: IContext, //
